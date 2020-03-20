@@ -1,0 +1,620 @@
+@font-face {
+    font-family: robotoRegular;
+    src: url(../webfonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: robotoRegular;
+    background-color: #EBF1F5;
+}
+
+.negro {
+    color: $negro;
+}
+
+.blanco {
+    color: $blanco;
+}
+
+.gris {
+    color: $gris;
+}
+
+.azul_claro {
+    color: $azul_claro;
+}
+
+.azul_oscuro {
+    color: $azul_oscuro;
+}
+
+.bg_negro {
+    background-color: $negro;
+}
+
+.bg_blanco {
+    background-color: $blanco;
+}
+
+.bg_gris {
+    background-color: $gris;
+}
+
+.bg_azul_claro {
+    background-color: $azul_claro;
+}
+
+.bg_azul_oscuro {
+    background-color: $azul_oscuro;
+}
+
+.margenx1 {
+    margin: 0 1px;
+}
+
+.padding_1 {
+    padding: 1px;
+}
+
+a {
+    text-decoration: none!important;
+    color: black;
+    transition: all 100ms ease-in-out;
+
+    &:hover {
+        color: $azul_claro;
+    }
+}
+
+#header_redes {
+
+    box-shadow: 0 1px 6px black;
+    background-color: $blanco;
+    height: 149.5px;
+
+    .logo {
+        
+            height: 80px;
+            width: 135px;
+       
+    }
+
+    #contacto {
+
+        i {
+            color: $azul_claro;
+        }
+    }
+
+    .fondo_menu {
+        position: relative;
+        top: 7px;
+        background-color: #323746;
+    }
+
+    .redes_sociales {
+
+        a{
+            color: $blanco;
+            font-size: 25px;
+
+            &:hover {
+                color: $azul_claro;
+            }
+        }
+    }
+
+    .botones_menu {
+
+        color: $blanco;
+
+        &:hover {
+
+            color: $azul_claro;
+
+        }
+    }
+}
+
+
+
+
+.carrusel_principal {
+    margin-top: 100px;
+    z-index: 100;
+    // height: 100vh;
+}
+
+#banner {
+    margin-top: 149.5px;
+
+    a {
+        color: blanchedalmond;
+
+        &:hover {
+            color: $azul_claro;
+        }
+    }
+
+    .titulo_banner {
+        z-index: 200;
+    }
+
+    img {
+        z-index: 100;
+        width: 100%;
+        height: 250px;
+        filter: brightness(0.8);
+    }
+
+}
+
+#formulario {
+
+    z-index: 200;
+    position: relative;
+    top: -35px;
+
+    .fondo_azul {
+        background-color: $azul_claro;
+    }
+
+    .boton_buscar_formulario {
+        width: 240px;
+        height: 38px;
+        padding: 5px 49px;
+        color: $blanco;
+        transition: all 150ms ease-in-out;
+        background-color: #323746;
+
+        &:hover {
+            color: $azul_claro;
+            transform: scale(1.01);
+            background-color: $blanco;
+        }
+    }
+    
+}
+
+#seccion_nosotros {
+
+    .icono_servicios {
+        font-size: 50px;
+        color: $blanco;
+        border-radius: 50px;
+        background-color: $azul_claro;
+        padding: 25px;
+        border: 4px solid $blanco;
+        width: 100px;
+        height: 100px;
+    }
+
+    .contenedor_iconos_servicios {
+
+        height: 140px;
+
+        p {
+            text-align: justify;
+        }
+
+        transition: all 300ms ease-in-out;
+        background-color: $blanco;
+        // margin: 10px 0;
+        // height: 250px;
+
+        &:hover {
+            box-shadow: 0 2px 20px -4px black;
+        }
+        
+    }
+
+    .contenedor_icono_texto {
+        position: relative;
+        top: -50px;
+    }
+
+    .padding_titulo {
+        position: relative;
+        top: -30px;
+    }
+
+
+
+}
+
+#propiedades_destacadas {
+
+    .boton_cards {
+        color: $blanco;
+        position: absolute;
+    }
+
+    .boton_inmueble {
+        font-size: 14px;
+        margin-left: 10px;
+        top: 207px;
+        background-color: $azul_oscuro;
+    }
+
+    .boton_gestion {
+        font-size: 14px;
+        background-color: $azul_claro;
+        margin: 10px 0 0 10px;
+    }
+
+    .card {
+
+        .iconos_apartamento {
+            transition: all 200ms ease-in-out;
+            color: $azul_claro;
+        }
+
+
+        &:hover {
+
+            cursor: pointer;
+
+            .iconos_apartamento {
+                transition: all 200ms ease-in-out;
+                color: $azul_oscuro;
+            }
+
+            img {
+                filter: brightness(0.9);
+            } 
+        }
+
+        img {
+            transition: all 150ms ease-in-out;
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    
+
+}
+
+#seccion_aliados {
+
+    .container_imagenes {
+
+        .col-12 {
+
+            overflow: hidden;
+
+            .animacion_logo {
+
+                animation: animacion_logo 10s ease-in-out infinite alternate;
+
+                @keyframes animacion_logo {
+                    from {
+                        margin-left: 0;
+                    }
+    
+                    to {
+                        margin-left: -65%;
+                    }
+                }
+
+            }
+
+            .n1 {
+                height: 80%;
+                width: initial;
+            }
+
+            .n2 {
+                height: 40%;
+                width: 65%;
+            }
+
+            .n3 {
+                height: 40%;
+                width: 65%;
+            }
+
+            .n4 {
+                height: 33%;
+                width: 80%;
+            }
+
+            .n5  {
+                height: 60%;
+                width: 70%;
+            }
+
+            
+
+
+        }
+    }
+
+    @media (max-width:720px) {
+        .n1,.n2,.n3,.n4,.n5 {
+            width: 80%;
+            height:45%;
+        }
+    }
+
+    .aliados {
+
+        padding: 0;
+        width: 100%;
+        height: 200px;
+        
+    
+        img {
+            width:90%;
+            height: 100%;
+        }
+    }
+    
+
+}
+
+footer {
+
+    background-color: #323746;
+    color: $blanco;
+
+    .alto_columnas {
+        height: 200px;
+    }
+
+    .logo {
+
+        img {
+
+            width: 150px;
+            height: 95px;
+
+        }
+       
+    }
+
+    .hover_iconos {
+        color: white;
+        &:hover {
+            color: $azul_claro;
+        }
+    }
+
+    .divisor {
+
+        img {
+            width: 53px;
+            height: 17px;
+        }
+    }
+
+    .redes_sociales {
+
+        i {
+            font-size: 20px;
+            transition: all 250ms ease-in-out;
+            color: $blanco!important;
+
+            &:hover {
+                color: $azul_claro!important;
+            }
+        }
+
+    }
+
+    .copyright {
+        background-color: #262A35;
+        padding: 20px 0;
+
+        a {
+            color: $azul_claro;
+
+            &:hover {
+                text-decoration: underline!important;
+                color: #0284bb;
+            }
+        }
+    }
+
+    .mapa {
+        width: 100%;
+        height: 100%;
+    }
+
+    .a_footer {
+        color: $azul_claro;
+        &:hover {
+            color: white;
+        }
+    }    
+
+}
+
+
+.subir {
+    display: none;
+    transition: all 200ms ease-in-out;
+    padding: 5px;
+    background-color: #009CDE;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 47px;
+    right: 20px;
+    -webkit-box-shadow: -1px 1px 5px 1px grey;
+    box-shadow: -1px 1px 5px 1px grey;
+    z-index: 500;
+
+    &:hover {
+        background-color: $azul_oscuro;
+    }
+}
+
+.header1 {
+    display: block;
+}
+
+.carousel-inner {
+    height: 60vh;
+}
+
+input::placeholder {
+    color: black!important;
+}
+
+textarea::placeholder {
+    color:black!important;
+}
+
+.carousel-inner2 {
+    height: 80vh;
+}
+
+
+// ----------------- MEDIA QUERIES -----------------
+
+
+// HEADER
+@media (max-width:768px){
+    .header1 {
+        display: none;
+    }
+    .carousel-inner {
+        height: 40vh;
+    }
+
+    #header_redes {
+        height: 130px;
+    }
+    #banner {
+        margin-top: 120px;
+    }
+}
+
+@media (min-width:992px){
+    .header2 {
+        display: none;
+    }
+}
+// HEADER
+
+
+@media (max-width:425px){
+    
+    #header_redes {
+        height: 125px;
+    }
+
+    #banner {
+        margin-top: 100px;
+    }
+
+    .carousel-inner2 {
+        height: 30vh!important;
+    }
+}
+
+@media (max-width:320px){
+    
+    #header_redes {
+        height: 100px;
+    }
+
+    #banner {
+        margin-top: 100px;
+    }
+
+    .carousel-inner2 {
+        height: 25vh!important;
+    }
+
+    #header_redes {
+        .logo {
+            height: 80px;
+            width: 135px;
+        }
+    }
+}
+
+
+
+
+
+// SLIDE DE ALIADOS
+
+
+@media(max-width: 768px) {
+
+    .container_imagenes {
+        display:none;
+    }
+
+    .container_imagenes2 {
+        
+        overflow: hidden;
+        width: 200px;
+        padding: 0;
+
+        .col-12 {
+            padding:0;
+        }
+    
+        .aliados2 {
+    
+            width: 100%;
+            height: 100%;
+            
+        
+            img {
+                width:100%;
+                height: 60%;
+            }
+        }
+
+        .aliados {
+    
+            width: 100%;
+            height: 100%;
+            
+        
+            img {
+                width:100%;
+                height: 60%;
+            }
+        }
+
+        .animado {
+            margin-left: 5%;    
+            animation: animado 10s infinite alternate;
+            animation-delay: 500ms;
+            
+          
+        }
+
+        @keyframes animado {
+            20% {margin-left: 5%;}
+            40% {margin-left: -100%;}
+
+            60% {margin-left: -200%}
+            80% {margin-left: -300%}
+            100% {margin-left: -400%}
+        }
+    
+    }
+    
+
+}
+
+@media (min-width: 769px) {
+    .container_imagenes2 {
+        display: none;
+    }
+}
+
+
+// SLIDE DE ALIADOS
+
+
+// ----------------- MEDIA QUERIES -----------------

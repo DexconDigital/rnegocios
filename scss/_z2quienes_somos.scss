@@ -1,0 +1,107 @@
+#quienes_somos {
+
+}
+
+#seccion_estadisticas {
+
+    background: url(../images/banner_estadisticas.jpg) center/ cover;
+
+
+    .opacidad_negra {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.356);
+        z-index: 100;
+    }
+
+    .contador {
+        z-index: 200;
+    }
+
+}
+
+// TAMAÑO DEL BANNER 
+@media (max-width:769px) {
+    #seccion_estadisticas {
+        background: url(../images/banner_estadisticas.jpg) -140px/ cover;
+    }
+}
+// TAMAÑO DEL BANNER 
+
+
+#mision_vision {
+
+
+}
+
+#valores {
+
+
+    width:100%;
+
+    .caja_negra {
+        position: absolute;
+        background-color: rgba(0,0,0,0.4);
+        width: 100%;
+        height: 100%;
+        z-index: 200;
+    }
+    
+
+    .valores {
+
+        color: $blanco;
+        
+        p {
+            width: 134px;
+            background-color: $azul_claro;
+            
+            }
+
+        }
+
+}
+
+.boton_consignar_inmueble {
+    width: 277.5px;
+}
+
+.boton_consignar_inmueble2 {
+
+    margin: 0 5px 0 0;
+    color: white;
+    background-color: $azul_claro;
+
+    &:hover {
+        color: white;
+        background-color: $azul_oscuro;
+    }
+}
+
+.color_boton_consignar_inmueble {
+
+    color: $blanco;
+    background-color: $azul_claro;
+
+    &:hover {
+        color: #323746;
+        background-color: $blanco;
+    }
+
+}
+
+ 
+
+#contenido_modal {
+
+    .politicas_contacto {
+        color: $azul_claro;
+
+        &:hover {
+            color: $azul_oscuro;
+        }
+    }
+
+}
+

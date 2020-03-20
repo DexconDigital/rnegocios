@@ -1,0 +1,40 @@
+.boton_requisitos {
+    color: $blanco;
+    background-color: $azul_claro;
+    width: 360.7px;
+
+    &:hover {
+        color: $blanco;
+        background-color: $azul_oscuro;
+    }
+}
+
+.li_excluido {
+    margin-left: 18px;
+}
+
+#requisitos_canon {
+
+    height: 340px;
+
+}   
+
+.accordion {
+    .card {
+        background-color: transparent;
+        border: none;
+    }
+}
+
+@media (max-width:426px) {
+    .boton_requisitos {
+        color: $blanco;
+        background-color: $azul_claro;
+        width: 100%; 
+    }
+
+    .boton_100 {
+        width: 100%;
+    }
+
+}

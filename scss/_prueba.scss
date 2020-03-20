@@ -1,0 +1,33 @@
+.contenedor {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.caja_imagen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.caja_negra {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+
+.caja_contenido {
+    position: absolute;
+    color: white;
+    z-index: 300;
+    width: 100%;
+    height: 100%;
+}

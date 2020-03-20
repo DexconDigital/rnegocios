@@ -1,0 +1,137 @@
+.tipo_de_inmueble2 {
+    font-size: 12px;
+    padding: 6px 12px;
+    background-color: $azul_claro;
+}
+
+.tipo_de_gestion2 {
+    font-size: 12px;
+    padding: 6px 12px;
+    background-color: $azul_oscuro;
+}
+
+.caracteristicas_inmuebles {
+    .fas {
+        font-size: 25px;
+    }
+}
+
+.boton_ver_detalle_inmueble {
+    width: 240px;
+    height: 38px;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: $blanco;
+    transition: all 150ms ease-in-out;
+    background-color: $azul_claro;
+
+    &:hover {
+        color: $blanco;
+        transform: scale(1.01);
+        background-color: $azul_oscuro;
+    }
+}
+
+.boton_ficha {
+    width: 240px;
+    height: 38px;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: $blanco;
+    transition: all 150ms ease-in-out;
+    background-color: $azul_claro;
+
+    &:hover {
+        color: $blanco;
+        transform: scale(1.01);
+        background-color: $azul_oscuro;
+    }
+}
+
+.imagen_asesor {
+    width: 250px;
+    height: 200px;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.imagen_similares {
+
+    width: 100%;
+    height: 170px;
+
+    img {
+        width: 85%;
+        height: 85%;
+    }
+}
+
+.lista_similares {
+
+    list-style: none;
+
+
+    li {
+        list-style: none;
+
+    }
+}
+
+.contenido_izquierda {
+    h2 {
+        font-size: 20px;
+    }
+}
+
+.contenido_derecha {
+    h2 {
+        font-size: 20px;
+    }
+}
+
+.alto_botones {
+    height: 238px;
+}
+
+#direccion_y_precio {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+ @media (max-width: 454px) {
+
+    .caracteristicas_inmuebles {
+        .col-3 {
+            -ms-flex: 0 0 50%!important;
+            flex: 0 0 50%!important;
+            max-width: 50%!important;
+        }
+
+        .borde_bottom {
+            border-bottom: 1px solid #dee2e6!important;
+        }
+    }
+
+
+    #precio {
+        width:100%;
+    }
+    
+    #direccion {
+        width:100%;
+    }
+
+ }
+
+ @media (max-width: 350px) {
+    #contenido_derecha {
+        position: initial!important;
+        width: initial!important;
+        padding-right: initial!important;
+        padding-left: initial!important;
+    }
+ }
