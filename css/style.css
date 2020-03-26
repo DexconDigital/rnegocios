@@ -57,8 +57,8 @@ a {
   background-color: #ffff;
   height: 149.5px; }
   #header_redes .logo {
-    height: 80px;
-    width: 135px; }
+    height: 120px;
+    width: 165px; }
   #header_redes #contacto i {
     color: #009CDE; }
   #header_redes .fondo_menu {
@@ -237,8 +237,8 @@ footer {
   footer .alto_columnas {
     height: 200px; }
   footer .logo img {
-    width: 150px;
-    height: 95px; }
+    height: 120px;
+    width: 165px; }
   footer .hover_iconos {
     color: white; }
     footer .hover_iconos:hover {
