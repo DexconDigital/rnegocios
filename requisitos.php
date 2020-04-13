@@ -112,7 +112,7 @@ $page = 'Requisitos' ?>
     <div class="container mt-5">
         <div class="container d-flex flex-wrap">
             <div class="col-12 col-lg-6 col-xl-6 p-0 d-flex justify-content-center ">
-                <a class="boton_100" target="_blank" href="documentos/FORMULARIO-ARRENDAMIENTO.xlsx"> <button class="btn boton_requisitos collapsed"> <?php echo $formularios_requisitos['0']['nombre'] ?> </button></a>
+                <a class="boton_100" target="_blank" href="documentos/FORMULARIO-ARRENDAMIENTO.pdf"> <button class="btn boton_requisitos collapsed"> <?php echo $formularios_requisitos['0']['nombre'] ?> </button></a>
             </div>
             <div class="col-12 col-lg-6 col-xl-6 mt-2 mt-lg-0 mt-xl-0 p-0 d-flex justify-content-center ">
                 <a class="boton_100" target="_blank" href="documentos/AUTORIZACIONES-FORMULARIO.pdf"> <button class="btn boton_requisitos collapsed"> <?php echo $formularios_requisitos['1']['nombre'] ?> </button></a>
