@@ -184,7 +184,7 @@ $page = 'Quiénes Somos' ?>
     <!-- SECCION_NOSOTROS -->
     <section id="seccion_nosotros" class="container mt-5">
         <div class="col-12">
-            <div class="row">
+            <div class="d-flex flex-wrap justify-content-center">
 
 
                 <div class="col-12 col-md-6 col-xl-4 col-lg-4">
@@ -253,6 +253,17 @@ $page = 'Quiénes Somos' ?>
                     </div>
                 </div>
 
+                <div class="col-12 col-md-6 col-xl-4 col-lg-4">
+                    <div class="my-5 contenedor_iconos_servicios text-center">
+                        <div class="contenedor_icono_texto">
+                            <div class="d-flex justify-content-center contenedor_icono"><i class="align-items-center icono_servicios justify-content-center d-flex <?php echo $iconos_servicios['administracion_propiedad_horizontal'] ?>"></i></div>
+                        </div>
+                        <p class="px-2 padding_titulo font-weight-bold text-center"><?php echo $texto_servicios['actividades_inmobiliarias']['administracion_propiedad_horizontal']['titulo'] ?></p>
+                        <!-- <p><?php echo $texto_servicios['actividades_inmobiliarias']['procesos_responsabilidad']['parrafo'] ?></p> -->
+
+                    </div>
+                </div>
+
 
             </div>
         </div>
@@ -283,23 +294,23 @@ $page = 'Quiénes Somos' ?>
                     </div>
                     <div class="modal-body">
                         <div class="modal-body">
-                            <form action="email/consignainmueble.php" class="row" method="post">
+                            <form action="email/consignacion_inmueble.php" method="post">
 
                                 <div class="form-group col-12">
-                                    <input type="text" placeholder="Nombre del propietario" name="nombre_del_propietario" class="form-control" requiered="">
+                                    <input required type="text" placeholder="Nombre del propietario" name="nombre_del_propietario" class="form-control">
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <input type="number" placeholder="Número del propietario" name="numero_del_propietario" class="form-control" requiered="">
+                                    <input required type="number" placeholder="Número del propietario" name="numero_del_propietario" class="form-control">
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <input type="number" placeholder="Precio" name="precio" class="form-control" requiered="">
+                                    <input type="number" placeholder="Precio" name="precio" class="form-control">
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <select class="form-control select_color" id="tipo_inm" name="tipo_inm" requiered="">
-                                        <option selected="" disabled="">Tipo de Inmueble</option>
+                                    <select required class="form-control select_color" id="tipo_inm" name="tipo_inm">
+                                        <option value="" selected disabled>Tipo de Inmueble</option>
                                         <option value="Apartamento">Apartamento</option>
                                         <option value="Casa">Casa</option>
                                         <option value="Consultorio">Consultorio</option>
@@ -316,94 +327,99 @@ $page = 'Quiénes Somos' ?>
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <select class="form-control select_color" name="transaccion" requiered="">
-                                        <option selected="" disabled="">Tipo de Transacción</option>
+                                    <select required class="form-control select_color" name="transaccion">
+                                        <option value="" selected disabled>Tipo de Transacción</option>
                                         <option value="arriendo">Arriendo</option>
                                         <option value="venta">Venta</option>
                                     </select>
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <input type="text" placeholder="Ciudad" name="ciudad" class="form-control" requiered="">
+                                    <input required type="text" placeholder="Ciudad" name="ciudad" class="form-control">
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <input type="text" placeholder="Barrio" name="barrio" class="form-control" requiered="">
+                                    <input type="text" placeholder="Barrio" name="barrio" class="form-control">
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <input type="text" placeholder="Dirección" name="direccion" class="form-control" requiered="">
+                                    <input type="text" placeholder="Dirección" name="direccion" class="form-control">
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <input type="text" placeholder="Nombre de la unidad" name="nombre_de_la_unidad" class="form-control" requiered="">
+                                    <input type="text" placeholder="Nombre de la unidad" name="nombre_de_la_unidad" class="form-control">
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <input type="number" placeholder="Áréa del inmueble (mts²)" name="area_del_inmueble" class="form-control" requiered="">
+                                    <input type="number" placeholder="Áréa del inmueble (mts²)" name="area_del_inmueble" class="form-control">
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <input type="number" placeholder="Número de habitaciones" name="numero_de_habitaciones" class="form-control" requiered="">
+                                    <input type="number" placeholder="Número de habitaciones" name="numero_de_habitaciones" class="form-control">
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <input type="number" placeholder="Baños" name="baños" class="form-control" requiered="">
+                                    <input type="number" placeholder="Baños" name="baños" class="form-control">
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <input type="text" placeholder="Tipo de cocina" name="tipo_de_cocina" class="form-control" requiered="">
+                                    <input type="text" placeholder="Tipo de cocina" name="tipo_de_cocina" class="form-control">
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <select class="form-control select_color" name="sala_comedor" requiered="">
-                                        <option selected="" disabled=""> Sala comedor </option>
+                                    <select required class="form-control select_color" name="sala_comedor">
+                                        <option value="" selected disabled> Sala comedor </option>
                                         <option value="si">Si</option>
                                         <option value="ni">No</option>
                                     </select>
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <select class="form-control select_color" name="zona_de_ropas" requiered="">
-                                        <option selected="" disabled=""> Zona de ropas </option>
+                                    <select required class="form-control select_color" name="zona_de_ropas">
+                                        <option value="" selected disabled> Zona de ropas </option>
                                         <option value="si">Si</option>
                                         <option value="ni">No</option>
                                     </select>
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <input type="number" placeholder="Parqueaderos" name="parqueaderos" class="form-control" requiered="">
+                                    <input type="number" placeholder="Parqueaderos" name="parqueaderos" class="form-control">
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <select class="form-control select_color" name="cuarto_util" requiered="">
-                                        <option selected="" disabled=""> Cuarto Útil </option>
+                                    <select required class="form-control select_color" name="cuarto_util">
+                                        <option value="" selected disabled> Cuarto Útil </option>
                                         <option value="si"> Si </option>
-                                        <option value="ni"> No </option>
+                                        <option value="no"> No </option>
                                     </select>
                                 </div>
 
                                 <div class="form-group col-12">
                                     <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" requiered="">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                         <label class="form-check-label" for="exampleCheck1">Acepto <a class="politicas_contacto" href="politica_de_datos.pdf" download="Politica de Datos" class="a-terminos" target="_blank">la política y tratamiento de datos</a></label>
                                     </div>
                                 </div>
+
                                 <div class="form-group col-12">
                                     <button type="submit" class="btn boton_buscar_formulario color_boton_consignar_inmueble">Enviar</button>
                                 </div>
+
                             </form>
                         </div>
                     </div>
+
                     <div class="modal-footer">
                         <button type="button" class="btn btn-dark" data-dismiss="modal">Cancelar</button>
-
                     </div>
+
                 </div>
             </div>
         </div>
     </section>
     <!-- CONTENIDO_MODAL -->
+
+
     <!-- FOOTER -->
     <section>
         <?php include 'layout/4_footer.php' ?>

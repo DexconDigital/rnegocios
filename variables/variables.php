@@ -32,21 +32,21 @@ $datos_contacto = [
 		],
 		"telefono_fijo" => [
 			"link"=> "0342885140",
-			"imprimir" => "+57 (4) 288 51 405",
+			"imprimir" => "+57 (4) 288 51 40",
 			"icono" => "fas fa-phone",
 		],
 		"celular" => [
-			"link"=> "+573013623208",
-			"imprimir" => "301 362 320",
+			"link"=> "+573013623201",
+			"imprimir" => "301 362 3201",
 			"icono" => "fas fa-mobile-alt",
 		],
 		"whatsapp" => [
-			"link"=> "https://api.whatsapp.com/send?phone=57301362320&text=&source=&data=",
-			"imprimir" => "301 362 320",
+			"link"=> "https://api.whatsapp.com/send?phone=573013623201&text=&source=&data=",
+			"imprimir" => "301 362 3201",
 			"icono" => "fab fa-whatsapp",
 		],
 		"correo" => [
-				"correo" => "rionegociosdelsur@gmail.com",
+				"correo" => "atencionalcliente@rionegociosdelsur.com",
 				"icono" => "far fa-envelope",
 		],
 		"horario" => [
@@ -219,6 +219,8 @@ $iconos_servicios = [
 	"asesoria" => "fas fa-handshake",
 	"reclamaciones" => "fas fa-file-contract",
 	"procesos_responsabilidad" => "fas fa-file-signature",
+	"administracion_propiedad_horizontal" => "fas fa-user-tie",
+	
 ];
 	
 //textos servicios
@@ -252,6 +254,10 @@ $texto_servicios = [
 		"titulo" => "Procesos de Responsabilidad Contractual y Extracontractual",
 		"parrafo" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, molestiae amet. Ullam expedita deserunt aspernatur reiciendis fuga dicta eligendi? Accusamus?",
 	],
+
+	"administracion_propiedad_horizontal" =>[
+		"titulo" => "Administración de Propiedad Horizontal",
+		"parrafo" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, molestiae amet. Ullam expedita deserunt aspernatur reiciendis fuga dicta eligendi? Accusamus?",
+	],
 ],
 ];
-?>

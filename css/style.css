@@ -65,6 +65,8 @@ a {
     position: relative;
     top: 7px;
     background-color: #323746; }
+  #header_redes .redes_sociales .icono {
+    font-size: 32px; }
   #header_redes .redes_sociales a {
     color: #ffff;
     font-size: 25px; }
@@ -254,6 +256,8 @@ footer {
     color: #ffff !important; }
     footer .redes_sociales i:hover {
       color: #009CDE !important; }
+  footer .redes_sociales .icono {
+    font-size: 30px; }
   footer .copyright {
     background-color: #262A35;
     padding: 20px 0; }

@@ -447,17 +447,24 @@ $page = 'Detalle de Inmueble' ?>
                             <!-- FORMULARIO DE CONTACTO  -->
                             <div class="col-12 mb-3">
 
-                                <input type="text" class="my-2 border codigo_input form-control" placeholder="Nombre y Apellido">
-                                <input type="email" class="my-2 border codigo_input form-control" placeholder="Correo Electrónico">
-                                <input type="number" class="my-2 border codigo_input form-control" placeholder="Teléfono / Celular">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="3"></textarea>
-                                <div class="form-group form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                                    <label class="form-check-label" for="exampleCheck1"> Confimo que he leído, entendido y acepto la <a class="azul_oscuro" href="politica_de_datos.pdf" download="Politica de Datos">política de tratamiento de datos personales.</a> </label>
-                                </div>
-                                <div class="row justify-content-center">
-                                    <button class="col-3 btn boton_ficha"> Enviar </button>
-                                </div>
+                               <form action="email/enviar_correo_asesor.php" method="POST">
+                                    <input type="text" name="name" required class="my-2 border codigo_input form-control" placeholder="Nombre y Apellido">
+                                    <input type="text"  value="<?php echo $asesor['correo']; ?>" required name="cor_asesor" class="d-none my-2 border codigo_input form-control">
+                                    <input type="text"  value="<?php echo $co; ?>" required name="codigo" class="d-none my-2 border codigo_input form-control">
+                                    <input type="email" name="email" class="my-2 border codigo_input form-control" required placeholder="Correo Electrónico">
+
+                                    <input type="number" requried name="telefono" class="my-2 border codigo_input form-control" placeholder="Teléfono / Celular">
+
+                                    <textarea class="form-control" name="mensaje"  placeholder="Mensaje" rows="3"></textarea>
+
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                                        <label class="form-check-label" for="exampleCheck1"> Confimo que he leído, entendido y acepto la <a class="azul_oscuro" href="politica_de_datos.pdf" download="Politica de Datos">política de tratamiento de datos personales.</a> </label>
+                                    </div>
+                                    <div class="row justify-content-center">
+                                        <button class="col-3 btn boton_ficha"> Enviar </button>
+                                    </div>
+                               </form>
                             </div>
                             <!-- FORMULARIO DE CONTACTO  -->
 

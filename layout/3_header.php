@@ -112,15 +112,15 @@
         </ul>
 
         <li class="redes_sociales nav-link">
-          <a target="_blank" href="<?php echo $datos_contacto['whatsapp']['link'] ?>"> <i class="<?php echo $datos_contacto['whatsapp']['icono'] ?>"> </i> </a>
+          <a target="_blank" href="<?php echo $datos_contacto['whatsapp']['link'] ?>"> <i class="icono <?php echo $datos_contacto['whatsapp']['icono'] ?>"> </i> </a>
         </li>
 
         <li class="redes_sociales nav-link">
-          <a target="_blank" href="<?php echo $redes_sociales['facebook']['link'] ?>"> <i class="<?php echo $redes_sociales['facebook']['icono'] ?>"> </i> </a>
+          <a target="_blank" href="<?php echo $redes_sociales['facebook']['link'] ?>"> <i class="icono <?php echo $redes_sociales['facebook']['icono'] ?>"> </i> </a>
         </li>
 
         <li class="redes_sociales nav-link">
-          <a target="_blank" href="<?php echo $redes_sociales['instagram']['link'] ?>"> <i class="<?php echo $redes_sociales['instagram']['icono'] ?>"> </i> </a>
+          <a target="_blank" href="<?php echo $redes_sociales['instagram']['link'] ?>"> <i class="icono <?php echo $redes_sociales['instagram']['icono'] ?>"> </i> </a>
         </li>
 
       </div>

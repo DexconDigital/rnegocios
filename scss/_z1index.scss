@@ -94,6 +94,10 @@ a {
 
     .redes_sociales {
 
+        .icono {
+            font-size: 32px;
+        }
+
         a{
             color: $blanco;
             font-size: 25px;
@@ -399,6 +403,10 @@ footer {
             &:hover {
                 color: $azul_claro!important;
             }
+        }
+
+        .icono {
+            font-size: 30px;
         }
 
     }

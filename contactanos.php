@@ -128,43 +128,45 @@ $page = 'Contáctanos' ?>
 
                     <h2 class="text-center mt-4"> Formulario de contacto </h2>
                     <div class="my-2 d-flex justify-content-center"><img src="images/divisor.png" alt=""></div>
-
+                    
                     <div class="col-12 p-0">
+                        <form action="email/enviar_correo.php" method="POST">
 
-                        <div class="col-lg-12 col-md-12">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Nombre y Apellido" required>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" placeholder="Nombre y Apellido" required>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-lg-12 col-md-12">
-                            <div class="form-group">
-                                <input type="email" class="form-control" name="email" placeholder="Correo" required>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" placeholder="Correo" required>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-lg-12 col-md-12">
-                            <div class="form-group">
-                                <input type="number" class="form-control" placeholder="Teléfono/Celular" required>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <input type="number" name="telefono" class="form-control" placeholder="Teléfono/Celular" required>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-12">
-                            <div class="form-group text_Area">
-                                <textarea cols="10" rows="7" name="message" class="textarea form-control tamaño_tex_area" placeholder="Mensaje"></textarea>
+                            <div class="col-md-12">
+                                <div class="form-group text_Area">
+                                    <textarea cols="10" rows="7" name="mensaje" class="textarea form-control tamaño_tex_area" placeholder="Mensaje"></textarea>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-12">
-                            <div class="custom-control custom-checkbox mb-4">
-                                <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
-                                <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="color_a_contacto" target="blank" href="politica_de_datos.pdf" download="Politica de Datos"> política de tratamiento de datos personales.</a></label>
+                            <div class="col-md-12">
+                                <div class="custom-control custom-checkbox mb-4">
+                                    <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
+                                    <label class="custom-control-label" for="defaultContactFormCopy">Confirmo que he leído, entendido y acepto la<a class="color_a_contacto" target="blank" href="politica_de_datos.pdf" download="Politica de Datos"> política de tratamiento de datos personales.</a></label>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- BOTON_ENVIAR -->
-                        <button type="submit" class="ml-3 btn boton_buscar_formulario color_boton_consignar_inmueble" data-toggle="modal" data-target="#exampleModal"> Enviar </button>
-                        <!-- BOTON_ENVIAR -->
+                            <!-- BOTON_ENVIAR -->
+                            <button type="submit" class="ml-3 btn boton_buscar_formulario color_boton_consignar_inmueble" data-toggle="modal" data-target="#exampleModal"> Enviar </button>
+                            <!-- BOTON_ENVIAR -->
+                        </form>
 
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 <?php require 'variables/variables.php';
 require 'controllers/indexController.php';
+require 'variables/metaEtiquetas.php';
 $page = 'Inicio' ?>
 
 <!doctype html>
@@ -72,7 +73,7 @@ $page = 'Inicio' ?>
 
 
       <div class="col-12">
-        <div class="row">
+        <div class="d-flex flex-wrap justify-content-center">
 
 
           <div class="col-12 col-md-6 col-xl-4 col-lg-4">
@@ -136,6 +137,17 @@ $page = 'Inicio' ?>
                 <div class="d-flex justify-content-center contenedor_icono"><i class="align-items-center icono_servicios justify-content-center d-flex <?php echo $iconos_servicios['procesos_responsabilidad'] ?>"></i></div>
               </div>
               <p class="px-2 padding_titulo font-weight-bold text-center"><?php echo $texto_servicios['actividades_inmobiliarias']['procesos_responsabilidad']['titulo'] ?></p>
+              <!-- <p><?php echo $texto_servicios['actividades_inmobiliarias']['procesos_responsabilidad']['parrafo'] ?></p> -->
+
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-4 col-lg-4">
+            <div class="my-5 contenedor_iconos_servicios text-center">
+              <div class="contenedor_icono_texto">
+                <div class="d-flex justify-content-center contenedor_icono"><i class="align-items-center icono_servicios justify-content-center d-flex <?php echo $iconos_servicios['administracion_propiedad_horizontal'] ?>"></i></div>
+              </div>
+              <p class="px-2 padding_titulo font-weight-bold text-center"><?php echo $texto_servicios['actividades_inmobiliarias']['administracion_propiedad_horizontal']['titulo'] ?></p>
               <!-- <p><?php echo $texto_servicios['actividades_inmobiliarias']['procesos_responsabilidad']['parrafo'] ?></p> -->
 
             </div>

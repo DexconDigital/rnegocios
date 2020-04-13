@@ -22,15 +22,15 @@
               <div class="mt-3 d-flex align-items-center justify-content-center">
 
                 <li class="border-top border-secondary redes_sociales nav-link">
-                  <a class="hover_iconos" target="_blank" href="<?php echo $datos_contacto['whatsapp']['link'] ?>"> <i class="<?php echo $datos_contacto['whatsapp']['icono'] ?>"> </i> </a>
+                  <a class="hover_iconos" target="_blank" href="<?php echo $datos_contacto['whatsapp']['link'] ?>"> <i class="icono <?php echo $datos_contacto['whatsapp']['icono'] ?>"> </i> </a>
                 </li>
 
                 <li class="border-top border-secondary redes_sociales nav-link">
-                  <a class="hover_iconos" target="_blank" href="<?php echo $redes_sociales['facebook']['link'] ?>"> <i class="<?php echo $redes_sociales['facebook']['icono'] ?>"> </i> </a>
+                  <a class="hover_iconos" target="_blank" href="<?php echo $redes_sociales['facebook']['link'] ?>"> <i class="icono <?php echo $redes_sociales['facebook']['icono'] ?>"> </i> </a>
                 </li>
 
                 <li class="border-top border-secondary redes_sociales nav-link">
-                  <a class="hover_iconos" target="_blank" href="<?php echo $redes_sociales['instagram']['link'] ?>"> <i class="<?php echo $redes_sociales['instagram']['icono'] ?>"> </i> </a>
+                  <a class="hover_iconos" target="_blank" href="<?php echo $redes_sociales['instagram']['link'] ?>"> <i class="icono <?php echo $redes_sociales['instagram']['icono'] ?>"> </i> </a>
                 </li>
 
               </div>
@@ -44,8 +44,8 @@
             <h4 class="text-center"> Formularios </h4>
             <div class="w-100 ml-n5 mb-2 d-flex align-items-center justify-content-center"><img class="align-self-start" src="images/divisor_footer.png" alt=""></div>
             <ul>
-              <li> <a class="a_footer  text-center" href="documentos/FORMULARIO-ARRENDAMIENTO.xlsx"> Descargar formulario de Arrendamiento </a> </li>
-              <li> <a class="a_footer  text-center" target="blank" href="documentos/AUTORIZACIONES-FORMULARIO.pdf"> Descargar formulario de Autorización </a> </li>
+              <li> <a class="a_footer  text-center" target="_blank" href="documentos/FORMULARIO-ARRENDAMIENTO.pdf"> Descargar formulario de Arrendamiento </a> </li>
+              <li> <a class="a_footer  text-center" target="_blank" href="documentos/AUTORIZACIONES-FORMULARIO.pdf"> Descargar formulario de Autorización </a> </li>
             </ul>
           </div>
           <!-- FORMULARIOS -->
