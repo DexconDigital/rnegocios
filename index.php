@@ -12,7 +12,7 @@ $page = 'Inicio' ?>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <?php include 'layout/1_archivos_header.php' ?>
-  <title> <?php echo $page . ' | ' . $nombre_inmobiliaria ?> </title>
+  <title> <?php echo $page . ' | ' . $nombre_inmobiliaria ?> </title> 
 
 </head>
 
