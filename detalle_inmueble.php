@@ -209,15 +209,15 @@ $page = 'Detalle de Inmueble' ?>
                                                 <p class="m-0"> Comparte en: </p>
 
                                                 <div class="d-flex align-items-center justify-content-center">
-                                                    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rionegocios.com%2FdetalleInmueble%3Fcodigo%3D<?php echo $co; ?>" target="_blank">
+                                                    <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.rionegociosdelsur.com/detalle_inmueble.php?co=<?php echo $co; ?>" target="_blank">
                                                         <i class="ml-3 mr-3 <?php echo $redes_sociales['facebook']['icono'] ?>"></i>
                                                     </a>
 
-                                                    <a href="<?php echo 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.rionegocios.com%2Fdetalle_inmueble.php%3Fco%3D' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank">
+                                                    <a href="<?php echo 'https://twitter.com/intent/tweet?url=http://www.rionegociosdelsur.com/detalle_inmueble.php?co=' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank">
                                                         <i class="mr-3 fab fa-twitter"></i>
                                                     </a>
 
-                                                    <a href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20www.rionegocios.comdetalleInmueble.php?codigo%3d' . $co ?>" target="_blank">
+                                                    <a href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20http://www.rionegociosdelsur.com/detalle_inmueble.php?co=' . $co ?>" target="_blank">
                                                         <i class="fab fa-whatsapp"></i>
                                                     </a>
                                                 </div>
