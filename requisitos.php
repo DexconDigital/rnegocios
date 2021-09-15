@@ -63,11 +63,9 @@ $page = 'Requisitos' ?>
                            <div> • <?php echo $textos_requisitos ['canon_1'] ['parrafos'] ['4']?></div>
                            <div class="font-weight-bold mt-2 mb-1"> <?php echo $textos_requisitos ['canon_1'] ['parrafos'] ['5']?></div>
                            <div  class="pr-5 mb-2"> • <?php echo $textos_requisitos ['canon_1'] ['parrafos'] ['6']?></div>
-                           <div> • <?php echo $textos_requisitos ['canon_1'] ['parrafos'] ['7']?></div>
-                           <div> • <?php echo $textos_requisitos ['canon_1'] ['parrafos'] ['8']?></div>
-                           <div> • <?php echo $textos_requisitos ['canon_1'] ['parrafos'] ['9']?></div>
-                          
-
+							<div> • <?php echo $textos_requisitos ['canon_1'] ['parrafos'] ['7']?></div>
+							<div> • <?php echo $textos_requisitos ['canon_1'] ['parrafos'] ['8']?></div>
+							<div> • <?php echo $textos_requisitos ['canon_1'] ['parrafos'] ['9']?></div>
                         </div>
                     </div>
                 </div>
@@ -92,9 +90,9 @@ $page = 'Requisitos' ?>
                         <div> • <?php echo $textos_requisitos ['canon_2'] ['parrafos'] ['7']?></div>
                         <div class="mb-1 mt-2 font-weight-bold"> <?php echo $textos_requisitos ['canon_2'] ['parrafos'] ['8']?></div>
                         <div class="mb-2"> • <?php echo $textos_requisitos ['canon_2'] ['parrafos'] ['9']?></div>
-                        <div> • <?php echo $textos_requisitos ['canon_2'] ['parrafos'] ['10']?></div>
-                        <div> • <?php echo $textos_requisitos ['canon_2'] ['parrafos'] ['11']?></div>
-                        <div> • <?php echo $textos_requisitos ['canon_2'] ['parrafos'] ['12']?></div>
+						<div> • <?php echo $textos_requisitos ['canon_2'] ['parrafos'] ['10']?></div>
+						<div> • <?php echo $textos_requisitos ['canon_2'] ['parrafos'] ['11']?></div>
+						<div> • <?php echo $textos_requisitos ['canon_2'] ['parrafos'] ['12']?></div>
                         <!-- <div class="font-weight-bold mt-2"> Si la persona trabaja independiente debe traer certificado de ingresos </div> -->
 
                         </div>
